@@ -20,7 +20,8 @@ Output:
 
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192152894-32b74726-1144-4be4-9f26-c4ed786e2a5f.png"> </p>
 
-***UI*** adalah tampilan yang dapat berinteraksi dengan pengguna yang terdiri dari komponen-komponen, seperti layar sentuh, papan ketik, suara, dan cahaya, yang dapat diberi input, ditekan, dan digerakkan. ***Canvas*** adalah wadah khusus untuk menaruk komponen-komponen UI di Unity.
+***UI*** adalah tampilan yang dapat berinteraksi dengan pengguna yang terdiri dari komponen-komponen, seperti layar sentuh, papan ketik, suara, dan cahaya, yang dapat diberi input, ditekan, dan digerakkan. 
+***Canvas*** adalah wadah khusus untuk menaruk komponen-komponen UI di Unity. Canvas sedikit berbeda dari Gameobject karena properti yang dimiliki yaitu Rect Transform dan tidak dipengaruhi oleh posisi kamera.
 
 <h2>Inspector Window</h2>
 

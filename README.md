@@ -24,32 +24,13 @@ Output:
 
 <h2>Inspector Window</h2>
 
-<p align="center"><img width="50%" src=""> </p>
+<p align="center"><img width="50%" src="https://user-images.githubusercontent.com/113922230/192153211-9328a750-6ec5-4a0c-818f-650f57b5d047.png"> </p>
 
-***Inspector Window*** adalah .
+***Inspector Window*** adalah halaman yang berfungsi melihat dan mengedit properti dan pengaturan untuk hampir semua hal di Editor Unity, termasuk GameObjects, komponen, Aset, Material, pengaturan, serta preferensi dalam Editor.
 
 Source Code:
 ```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class HelloWorld : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        Debug.Log("Hello World");
-        Debug.LogWarning("Log");
-        Debug.LogError("Log");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
 ```
 Output:
 <p align="center"><img width="100%" src=""> </p>

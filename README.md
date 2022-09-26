@@ -4,7 +4,7 @@
 
 ## Gameobject & Component
 
-<p align="center"><img width="100%" src=""> </p>
+<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192292586-a1bfd8a3-a1c3-4ff5-9602-b967ee4bd6da.png"> </p>
 
 ***Gameobject*** adalah objek yang memiliki ***component*** komposisi tertentu. Setiap komponen dibuat menjadi satu class dan setiap class memiliki class (variabel) lain yang juga disebut sistem modular. Contoh: Musuh dengan kemampuan yang mirip (beririsan). 
 

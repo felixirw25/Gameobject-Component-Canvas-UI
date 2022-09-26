@@ -55,17 +55,40 @@ Output:
 
 <h2>Canvas & UI</h2>
 
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192152894-32b74726-1144-4be4-9f26-c4ed786e2a5f.png"> </p>
+<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192290117-2a5cb947-bf86-44ef-ab7c-8b09cd4aa24c.png"> </p>
 
 ***UI*** adalah tampilan yang dapat berinteraksi dengan pengguna yang terdiri dari komponen-komponen, seperti layar sentuh, papan ketik, suara, dan cahaya, yang dapat diberi input, ditekan, dan digerakkan. 
+
+<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192289679-1ea81114-e448-4e31-bb79-63c409087abc.png"> </p>
+
 ***Canvas*** adalah wadah khusus untuk menaruk komponen-komponen UI di Unity. Canvas sedikit berbeda dari Gameobject karena properti yang dimiliki yaitu Rect Transform dan tidak dipengaruhi oleh posisi kamera.
 
 Source Code:
 ```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class UIScript : MonoBehaviour
+{
+    public RectTransform rect;
+    // Start is called before the first frame update
+    void Start()
+    {
+        // rect.position cocok untuk world space
+        // untuk screen space
+        rect.anchoredPosition = new Vector2(0, 0);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
 ```
 Output:
-<p align="center"><img width="100%" src=""> </p>
+<p align="center"><img width="40%" src="https://user-images.githubusercontent.com/113922230/192289714-62403d24-79c4-4a16-abd2-ffbd59da82d1.png"> &nbsp; &nbsp; <img width="40%" src="https://user-images.githubusercontent.com/113922230/192291985-6757e59a-7e2f-4784-97cf-73140c9b496d.png"> </p>
 
 <br/>
 **Copyright by Felix Irwanto - 2022**

@@ -68,6 +68,7 @@ Source Code:
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIScript : MonoBehaviour
 {
@@ -78,12 +79,26 @@ public class UIScript : MonoBehaviour
         // rect.position cocok untuk world space
         // untuk screen space
         rect.anchoredPosition = new Vector2(0, 0);
+
+        if (rect==null){
+            rect = GetComponent<RectTransform>();
+        }
+        var button = GetComponent<Button>();
+
+        if(button==null){
+            gameObject.AddComponent<Button>();
+        }
+
+        Debug.Log(rect);
+        Debug.Log(button);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (rect.anchoredPosition.y<0){
+            rect.anchoredPosition += new Vector2(0,10) * Time.deltaTime;
+        }
     }
 }
 ```
